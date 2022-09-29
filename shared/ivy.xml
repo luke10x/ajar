@@ -1,0 +1,6 @@
+<ivy-module version="1.0">
+    <info
+        organisation="dev.luke10x.ajar"
+        module="shared-api"
+        status="integration"/>
+</ivy-module>

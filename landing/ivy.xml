@@ -1,0 +1,17 @@
+<ivy-module version="1.0">
+    <info
+        organisation="dev.luke10x.ajar"
+        module="landing"
+        status="integration"/>
+    <configurations>
+      <conf name="core"/>
+      <conf name="standalone" extends="core"/>
+    </configurations>
+    <publications>
+      <artifact name="landing" type="jar" conf="core"/>
+    </publications>
+    <dependencies>
+      <dependency name="shared-api" rev="latest.integration" conf="core->default"/>
+      <dependency org="commons-cli" name="commons-cli" rev="1.4" conf="standalone->default"/>
+    </dependencies>
+</ivy-module>

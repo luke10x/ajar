@@ -1,0 +1,8 @@
+
+<project name="landing" default="compile">
+    <property file="build.properties"/>
+    <property name="main.class.name" value="dev.luke10x.ajar.landing.Landing"/>
+
+    <import file="${common.dir}/common.xml"/>
+
+  </project>
