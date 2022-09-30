@@ -1,4 +1,4 @@
-<project name="shared-api" default="compile">
+<project name="ajar-shared" default="compile">
     <property file="build.properties"/>
 
     <import file="${common.dir}/common.xml"/>

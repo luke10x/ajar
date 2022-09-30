@@ -1,0 +1,8 @@
+
+<project name="ajar-rest" default="compile">
+    <property file="build.properties"/>
+    <import file="${common.dir}/common.xml"/>
+
+
+  
+</project>
