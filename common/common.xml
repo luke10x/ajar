@@ -139,6 +139,13 @@
                 <spring-boot:lib>
                     <fileset dir="lib" />
                 </spring-boot:lib>
+                <spring-boot:resources>
+                    <fileset dir="src/main/resources" />
+                    <fileset dir="src/main/webapp" />
+                </spring-boot:resources>
+                <!-- <fileset dir = "src/main/webapp">
+                    <include name = "**/*.*"/>
+                 </fileset> -->
             </spring-boot:exejar>
         </target>
       
