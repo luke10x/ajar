@@ -1,14 +1,14 @@
 <ivy-module version="1.0">
     <info
         organisation="dev.luke10x"
-        module="ajar-b2b-dashboard"
+        module="ajar-feature-flags"
         status="integration"/>
     <configurations>
       <conf name="core"/>
       <conf name="standalone" extends="core"/>
     </configurations>
     <publications>
-      <artifact name="ajar-b2b-dashboard" type="jar" conf="core"/>
+      <artifact name="ajar-feature-flags" type="jar" conf="core"/>
     </publications>
     <dependencies>
       <dependency name="ajar-shared"

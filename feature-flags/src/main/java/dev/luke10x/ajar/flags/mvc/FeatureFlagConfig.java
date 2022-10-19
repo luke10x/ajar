@@ -8,14 +8,14 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
-public class B2bDashboardConfig {
+public class FeatureFlagConfig {
   @EnableWebMvc
   @Configuration
   public class ApplicationConfiguration implements WebMvcConfigurer {
     @Bean
     public ViewResolver jspViewResolver() {
       InternalResourceViewResolver bean = new InternalResourceViewResolver();
-      bean.setPrefix("/WEB-INF/jsp/");
+      bean.setPrefix("WEB-INF/jsp/");
       bean.setSuffix(".jsp");
       return bean;
     }
