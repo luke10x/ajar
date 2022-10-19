@@ -1,2 +1,5 @@
-repository/
+/repository/
+.ant-targets-build.xml
+*.iml
+*.idea
 .DS_Store

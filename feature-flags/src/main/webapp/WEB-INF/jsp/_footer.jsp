@@ -1,0 +1,1 @@
+<p>Standard footer</p>
